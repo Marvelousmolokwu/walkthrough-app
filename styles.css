@@ -1,0 +1,262 @@
+:root{
+    --clr-body:rgba(46,46,46,1);
+    --clr-subtle-text:rgba(199, 199, 199, 1);
+    --clr-yellow:rgba(250,211,0,1);
+    --clr-secondary:rgba(255,255,255,1);
+    --ff-monserrat: 'Montserrat', sans-serif;
+    --ff-inter:'Inter', sans-serif;
+
+      
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--clr-body);
+    overflow-x: hidden;
+   
+}
+main, section{
+ max-width: 414px;
+
+}
+.sticky{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background:var(--clr-body) ;
+    max-width: 413px;
+    z-index: 10;
+}
+.top-top-part{
+  color: var(--clr-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--ff-monserrat);
+  font-size: 16px;
+  font-weight: 100;
+padding: 8px 24px; 
+
+
+
+  
+
+}
+.middle-top-part{
+    color: var(--clr-yellow);
+    align-items: center;
+    text-align: center;
+    font-family: var(--ff-monserrat);
+    font-size: 14px;
+    background-color: rgb(77, 76, 76);
+padding: 10px 24px;  
+}
+.outer-top-part{
+    background-image: url("images/First\ photo\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 604px;
+    color: var(--clr-secondary);
+   display: flex;
+    text-align: center;
+    align-items: center;
+ justify-content: center;
+ font-family: var(--ff-monserrat);
+ line-height: 35px;
+}
+a{
+    color: var(--clr-yellow);
+font-size: 18px;
+}
+.second-section{
+    background-image: url("images/second\ photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 604px;
+    color: var(--clr-secondary);
+    font-family: var(--ff-monserrat);
+       font-size: 23px;
+       line-height: 30px;
+       letter-spacing: 1px;
+       text-align: center;
+       padding: 30px;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+}
+
+.second-section p{
+    font-size: 18px;
+}
+
+.second-section button{
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, var(--clr-yellow), rgb(192, 191, 191));
+    border: white 1px solid;
+    position: relative;
+    width: 130px;
+    height: 30px;
+    color: white;
+    letter-spacing: 0.5px;
+   
+    font-weight: bold;
+   }
+.third-section{
+       padding: 30px;
+   font-family: var(--ff-inter);
+   color: var(--clr-secondary); 
+   padding-right: 0px;
+}
+.third-section h2{
+    font-weight: lighter;
+}
+.review p {
+    font-weight: lighter;
+    color: rgb(168, 166, 166);
+    font-size: 14px;
+    width: 200px;
+}
+.third-section img{
+    border-radius: 100%;
+}
+.third-section a{
+    font-size: 14px;
+}
+.third-section span{
+    color: yellow;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.review{
+    display: flex;
+    background-color:rgb(77, 76, 76) ;
+    padding: 20px;
+    justify-content: space-between;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+}
+.customer{
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.customer p{
+   
+    color: rgb(199, 195, 195)
+ 
+}
+.customer h2{
+    font-size: 20px;
+}
+.customer button{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: var(--clr-yellow);
+   border: none;
+   
+  
+    color: white;
+    letter-spacing: 0.5px;
+   
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.fourth-section{
+    background-image: url("images/Third\ photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 604px;
+    padding: 24px;
+    font-size: 24px;
+    font-family: var(--ff-inter);
+    color: var(--clr-secondary);
+    display: flex;
+    padding-bottom:80px ;
+   align-items: flex-end;
+   letter-spacing: 1px;
+}
+.fifth-section{
+    font-size: 16px;
+    font-family: var(--ff-inter);
+     
+    color: rgb(199, 195, 195);
+    padding: 24px;
+    line-height: 28px;
+}
+.fifth-section h3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.fifth-section h2{
+    font-size: 18px;
+}
+.sixth-section{
+    background: url(images/Fourth\ photo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 50px 24px;
+    color: var(--clr-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--ff-monserrat);
+    line-height: 28px;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+}
+.sixth-section h1{
+    text-align: center;
+    font-family: var(--ff-monserrat);
+    font-size: 32px;
+}
+.sixth-section h3{
+    padding-top: 20px;
+}
+.bigger-p p{
+    font-size: 20px;
+  
+}
+.footer{
+font-size: 14px;
+    font-family: var(--ff-monserrat);
+    padding: 35px 24px;
+    color: rgb(209, 208, 208);
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(209, 208, 208);
+   align-items: center;
+  cursor: pointer;
+    font-size: 16px;
+}
+.footer p{
+ padding: 15px 0;
+}
+.footer h1, h2{
+    margin: 15px 0;
+    font-size: 14px;
+font-weight: lighter;
+color: var(--clr-secondary);
+}
+.footer a{
+      color: rgb(255, 252, 252);
+      margin-top: 20px;
+}
