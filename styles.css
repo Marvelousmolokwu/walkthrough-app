@@ -62,10 +62,6 @@ section {
   font-family: var(--ff-monserrat);
   line-height: 35px;
 }
-.outer-top-part h1 {
-  font-size: 32px;
-  font-weight: bolder;
-}
 a {
   color: var(--clr-yellow);
   font-size: 18px;
