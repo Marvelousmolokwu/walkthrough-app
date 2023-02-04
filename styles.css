@@ -36,7 +36,7 @@ section {
   align-items: center;
   font-family: var(--ff-monserrat);
   font-size: 16px;
-  font-weight: 300;
+  font-weight: bold;
   padding: 8px 24px;
 }
 .middle-top-part {
@@ -47,7 +47,7 @@ section {
   font-size: 14px;
   background-color: rgb(77, 76, 76);
   padding: 10px 24px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .outer-top-part {
   background-image: url("images/First\ photo\ \(1\).png");
@@ -61,7 +61,10 @@ section {
   justify-content: center;
   font-family: var(--ff-monserrat);
   line-height: 35px;
-  font-weight: bold;
+  font-weight: bolder;
+}
+.outer-top-part h1 {
+  font-size: 32px;
 }
 a {
   color: var(--clr-yellow);
@@ -104,6 +107,9 @@ a {
   letter-spacing: 0.5px;
 
   font-weight: bold;
+}
+.second-section h1 {
+  font-size: 32px;
 }
 .third-section {
   padding: 30px;
