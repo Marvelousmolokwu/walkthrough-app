@@ -29,25 +29,31 @@ section {
   max-width: 413px;
   z-index: 10;
 }
+.first-part {
+  font-family: var(--ff-monserrat);
+}
 .top-top-part {
   color: var(--clr-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--ff-monserrat);
+
   font-size: 16px;
   font-weight: bold;
-  padding: 8px 24px;
+
+  padding: 5px 24px;
+  align-items: center;
 }
 .middle-top-part {
   color: var(--clr-yellow);
   align-items: center;
   text-align: center;
-  font-family: var(--ff-monserrat);
+
   font-size: 14px;
   background-color: rgb(77, 76, 76);
   padding: 10px 24px;
-  font-weight: bolder;
+  font-weight: 600;
+  line-height: 24px;
 }
 .outer-top-part {
   background-image: url("images/First\ photo\ \(1\).png");
@@ -60,12 +66,27 @@ section {
   align-items: center;
   justify-content: center;
   font-family: var(--ff-monserrat);
-  line-height: 35px;
+  margin-top: 20px;
 }
+.outer-top-part,
+.second-section h1 {
+  line-height: 40px;
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+.outer-top-part,
+.second-section p {
+  line-height: 40px;
+  padding-bottom: 4px;
+  font-size: 18px;
+}
+
 a {
   color: var(--clr-yellow);
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px;
 }
 .second-section {
   background-image: url("images/second\ photo.png");
@@ -75,15 +96,14 @@ a {
   color: var(--clr-secondary);
   font-family: var(--ff-monserrat);
   font-size: 23px;
-  line-height: 30px;
+
   letter-spacing: 1px;
   text-align: center;
-  padding: 30px;
+  padding: 24px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  font-weight: bold;
 }
 
 .second-section p {
@@ -91,14 +111,14 @@ a {
 }
 
 .second-section button {
-  font-size: 14px;
-  padding: 5px 20px;
+  font-size: 16px;
+  padding: 8px;
   border-radius: 100px;
   background: linear-gradient(90deg, var(--clr-yellow), rgb(192, 191, 191));
   border: white 1px solid;
-  position: relative;
+  margin-top: 48px;
   width: 130px;
-  height: 30px;
+  height: 32px;
   color: white;
   letter-spacing: 0.5px;
 
@@ -106,10 +126,9 @@ a {
 }
 
 .third-section {
-  padding: 30px;
+  padding: 48px 0px 24px 24px;
   font-family: var(--ff-inter);
   color: var(--clr-secondary);
-  padding-right: 0px;
 }
 .third-section h2 {
   font-weight: lighter;
@@ -123,6 +142,7 @@ a {
 }
 .third-section img {
   border-radius: 100%;
+  object-fit: cover;
 }
 .third-section a {
   font-size: 14px;
@@ -133,31 +153,44 @@ a {
 .reviews {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
 }
 .review {
   display: flex;
   background-color: rgb(77, 76, 76);
-  padding: 20px;
+  padding: 16px;
   justify-content: space-between;
+  align-items: start;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  height: 105px;
+  font-size: 14px;
+  font-family: var(--ff-inter);
 }
-
+.review h4 {
+  line-height: 24px;
+  padding-bottom: 4px;
+  font-size: 16px;
+}
+.review p {
+  line-height: 16px;
+}
 .customer {
-  margin-top: 20px;
+  margin-top: 24px;
   font-size: 18px;
 }
 .customer p {
   color: rgb(199, 195, 195);
+  font-size: 18px;
+  line-height: 24px;
 }
 .customer h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
 }
 .customer button {
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 100px;
   background: var(--clr-yellow);
   border: none;
@@ -165,9 +198,9 @@ a {
   color: rgb(250, 249, 249);
   letter-spacing: 0.5px;
 
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 20px;
 }
 .fourth-section {
   background-image: url("images/Third\ photo.png");
@@ -179,13 +212,14 @@ a {
   font-family: var(--ff-inter);
   color: var(--clr-secondary);
   display: flex;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   align-items: flex-end;
   letter-spacing: 1px;
   font-weight: 700;
 }
 .fourth-section h2 {
   font-size: 24px;
+  line-height: 32px;
 }
 .fifth-section {
   font-size: 16px;
@@ -193,14 +227,15 @@ a {
 
   color: rgb(199, 195, 195);
   padding: 24px;
-  line-height: 20px;
+  line-height: 24px;
 }
 .fifth-section h3 {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 18px;
 }
 .fifth-section h2 {
   font-size: 24px;
+  margin-bottom: 4px;
+  line-height: 32px;
 }
 .sixth-section {
   background: url("images/Fourth\ photo\ \(1\).png");
@@ -213,9 +248,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
   font-family: var(--ff-monserrat);
-  line-height: 20px;
+
   letter-spacing: 0.5px;
   margin-bottom: 30px;
+  font-size: 18px;
 }
 .sixth-section h1 {
   text-align: center;
@@ -224,11 +260,20 @@ a {
 }
 .sixth-section p {
   margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .sixth-section h2 {
-  padding-top: 20px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 32px;
+}
+.sixth-section a {
+  padding-left: 0;
+  line-height: 24px;
+  font-weight: 800;
 }
 
 .footer {
@@ -246,18 +291,20 @@ a {
   align-items: center;
   cursor: pointer;
   font-size: 16px;
+  line-height: 16px;
 }
 .footer p {
-  padding: 15px 0;
+  padding-bottom: 24px;
 }
 .footer h1,
 h2 {
-  margin: 15px 0;
+  margin: 32px 0px 20px 0px;
   font-size: 14px;
   font-weight: lighter;
   color: var(--clr-secondary);
 }
 .footer a {
   color: rgb(255, 252, 252);
-  margin-top: 20px;
+  margin-bottom: 24px;
+  padding-left: 0;
 }
