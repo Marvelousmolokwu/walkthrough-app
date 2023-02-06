@@ -44,6 +44,9 @@ section {
   padding: 5px 24px;
   align-items: center;
 }
+.top-top-part h2 {
+  font-weight: bold;
+}
 .middle-top-part {
   color: var(--clr-yellow);
   align-items: center;
@@ -167,7 +170,7 @@ a {
   font-family: var(--ff-inter);
 }
 .info {
-  width: 200px;
+  width: 180px;
 }
 .review h4 {
   line-height: 24px;
