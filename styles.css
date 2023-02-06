@@ -72,11 +72,9 @@ section {
 .second-section h1 {
   line-height: 40px;
   padding-bottom: 8px;
-  font-weight: bolder;
 }
 .outer-top-part,
 .second-section p {
-  line-height: 40px;
   padding-bottom: 4px;
   font-size: 18px;
 }
@@ -123,6 +121,7 @@ a {
   letter-spacing: 0.5px;
   text-align: center;
   font-weight: bold;
+  padding: 3px;
 }
 
 .third-section {
