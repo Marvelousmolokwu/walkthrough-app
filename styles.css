@@ -62,14 +62,14 @@ section {
   background-image: url("images/First\ photo\ \(1\).png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 580px;
+  height: 604px;
   color: var(--clr-secondary);
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   font-family: var(--ff-monserrat);
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .outer-top-part,
 .second-section h1 {
