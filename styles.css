@@ -112,7 +112,7 @@ a {
 
 .second-section button {
   font-size: 16px;
-  padding: 8px;
+
   border-radius: 100px;
   background: linear-gradient(90deg, var(--clr-yellow), rgb(192, 191, 191));
   border: white 1px solid;
@@ -121,7 +121,7 @@ a {
   height: 32px;
   color: white;
   letter-spacing: 0.5px;
-
+  text-align: center;
   font-weight: bold;
 }
 
