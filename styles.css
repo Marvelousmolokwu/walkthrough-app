@@ -66,13 +66,13 @@ section {
   align-items: center;
   justify-content: center;
   font-family: var(--ff-monserrat);
-  margin-top: 20px;
+  margin-top: 100px;
 }
 .outer-top-part,
 .second-section h1 {
   line-height: 40px;
   padding-bottom: 8px;
-  font-weight: 600;
+  font-weight: bolder;
 }
 .outer-top-part,
 .second-section p {
@@ -84,7 +84,7 @@ section {
 a {
   color: var(--clr-yellow);
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: 24px;
   padding: 8px;
 }
