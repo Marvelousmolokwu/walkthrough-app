@@ -15,6 +15,7 @@
 body {
   background-color: var(--clr-body);
   overflow-x: hidden;
+  letter-spacing: 0.5px;
 }
 main,
 section {
@@ -38,14 +39,15 @@ section {
   justify-content: space-between;
   align-items: center;
 
-  font-size: 16px;
   font-weight: bold;
 
-  padding: 5px 24px;
-  align-items: center;
+  padding: 20px 24px 5px 24px;
+  line-height: 40px;
 }
 .top-top-part h2 {
-  font-weight: bold;
+  font-weight: 600;
+  margin: 0px;
+  font-size: 16px;
 }
 .middle-top-part {
   color: var(--clr-yellow);
@@ -69,7 +71,7 @@ section {
   align-items: center;
   justify-content: center;
   font-family: var(--ff-monserrat);
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .outer-top-part,
 .second-section h1 {
